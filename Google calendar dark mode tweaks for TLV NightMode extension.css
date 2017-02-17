@@ -82,8 +82,9 @@ html.tlvNightModeOn div[id="todayButton:1"] div {
   background: none !important;
 }
 
-html.tlvNightModeOn div[id="todayButton:1"] .goog-imageless-button-disabled .goog-imageless-button-content {
+html.tlvNightModeOn div[id="todayButton:1"] > div.goog-imageless-button.goog-imageless-button-disabled {
   color: rgb(114, 118, 126) !important;
+  border: none !important;
 }
 
 html.tlvNightModeOn div[id="todayButton:1"] > div:hover {
@@ -104,5 +105,26 @@ html.tlvNightModeOn #topRightNavigation #mg-settings > div {
 html.tlvNightModeOn #topRightNavigation > div.button-strip > div:not(.trans-strip):hover {
   border: 1px solid rgb(102, 110, 128) !important;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
