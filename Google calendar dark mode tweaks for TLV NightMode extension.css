@@ -1,0 +1,108 @@
+@-moz-document url-prefix("https://calendar.google.com/calendar/") {
+/*.st-bg-today {
+    background: #eaeaea;
+    border-left: 1px solid #666;
+}*/
+
+html.tlvNightModeOn .st-dtitle-today > span {
+  color: rgb(193, 129, 118) !important;
+}
+
+html.tlvNightModeOn .dp-today-selected {
+  border: 1px solid rgb(120, 77, 69) !important;
+}
+
+html.tlvNightModeOn .st-bg-today {
+    border-left: 1px solid rgb(193, 129, 118) !important;
+}
+html.tlvNightModeOn .st-dtitle-today {
+    border-left: 1px solid rgb(193, 129, 118) !important;
+    border-top: 1px solid rgb(193, 129, 118) !important;
+}
+
+html.tlvNightModeOn .st-dtitle-down {
+    border-top: 1px solid rgb(193, 129, 118) !important;
+}
+
+html.tlvNightModeOn .st-bg-next {
+    border-left: 1px solid rgb(193, 129, 118) !important;
+}
+
+html.tlvNightModeOn .st-dtitle-next {
+    border-left: 1px solid rgb(193, 129, 118) !important;
+}
+
+html.tlvNightModeOn .cc {
+    border: 1px solid hsla(9, 38%, 61%, 0.47) !important;
+}
+
+html.tlvNightModeOn div[id="navBack:1"] {
+  background-color: #282c34 !important;
+  background-image: none !important;
+}
+
+html.tlvNightModeOn div[id="navBack:1"]:hover {
+  border-color: rgb(102, 110, 128) !important;
+}
+
+html.tlvNightModeOn div[id="navBack:1"] > div {
+  background-image: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7em;
+}
+
+html.tlvNightModeOn div[id="navBack:1"] > div:after {
+    content: "⬅";
+}
+
+html.tlvNightModeOn div[id="navForward:1"] {
+  background-color: #282c34 !important;
+  background-image: none !important;
+}
+
+html.tlvNightModeOn div[id="navForward:1"] > div {
+  background-image: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7em;
+}
+
+html.tlvNightModeOn div[id="navForward:1"] > div:after {
+    content: "➡";
+}
+
+html.tlvNightModeOn div[id="navForward:1"]:hover {
+  border-color: rgb(102, 110, 128) !important;
+}
+
+html.tlvNightModeOn div[id="todayButton:1"] div {
+  background: none !important;
+}
+
+html.tlvNightModeOn div[id="todayButton:1"] .goog-imageless-button-disabled .goog-imageless-button-content {
+  color: rgb(114, 118, 126) !important;
+}
+
+html.tlvNightModeOn div[id="todayButton:1"] > div:hover {
+  border-color: rgb(102, 110, 128) !important;
+}
+
+html.tlvNightModeOn #topRightNavigation div {
+ background: inherit !important;
+}
+
+
+html.tlvNightModeOn #topRightNavigation #mg-settings > div {
+ background: url(https://calendar.google.com/googlecalendar/images/combined_v46_vr.png) -273px -34px no-repeat !important;
+}
+
+
+
+html.tlvNightModeOn #topRightNavigation > div.button-strip > div:not(.trans-strip):hover {
+  border: 1px solid rgb(102, 110, 128) !important;
+}
+
+}

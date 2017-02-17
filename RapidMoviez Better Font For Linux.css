@@ -1,0 +1,98 @@
+@-moz-document domain("rmz.cr") {
+body{
+ font-family: Open Sans;
+}
+body * {
+ font-family: Open Sans;
+}
+
+.left-container .filter a {
+  font-family: Open Sans;
+  font-size: 1.2em;
+}
+
+.blog-contents .blog-post .blog-desc>p:first-of-type {
+ font-size: 1.1em;
+}
+
+#in_progress .box ul li a{
+  font-size: 1.3em;
+}
+
+#menu li a {
+  font-size: 1.1em;
+}
+
+.right-container .latest .epicontainer>ul>li>span>a {
+  font-size: 1.2em;
+}
+.right-container .latest .epicontainer>ul>li>span>b {
+  font-size: 1.1em;
+}
+.right-container .recent-comments>ul>li {
+  font-size: 1.1em;
+  line-height: 1.4em;
+}
+.right-container .recent-comments>ul>li>a {
+  font-size: 1em;
+}
+.right-container .archives>ul>li>a {
+  font-size: 1.2em;
+}
+
+/*For Title Post (muliple eps)*/
+
+.blog-details>*:not(.movie) {
+  font-family: Open Sans;
+}
+.blog-details>.movie span {
+  font-family: inherit;
+}
+.blog-details li.movieplot {
+  font-family: Open Sans !important;
+}
+.blog-details ul.allrls li span.watch {
+  font-family: Open Sans;
+}
+.blog-details ul.allrls li span.time {
+  font-family: Open Sans;
+}
+.blog-details ul.allrls li>a {
+  font-family: Open Sans;
+}
+.blog-details ul.allrls li a.watch {
+  font-family: Open Sans;
+}
+.blog-details .show-us-love h2  {
+  font-family: Open Sans;
+}
+
+/*For Individual Posts*/
+.blog-details pre.links {
+  font-size: 0.9em;
+}
+.blog-details .fullinfo>a {
+  font-family: Open Sans !important;
+}
+
+.blog-details>h5>div>a[href$="#releases"] {
+  font-family: Open Sans !important;
+}
+
+.blog-details .discussion-board * {
+  font-family: Open Sans !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

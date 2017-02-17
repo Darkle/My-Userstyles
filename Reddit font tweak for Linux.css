@@ -1,0 +1,47 @@
+@-moz-document domain("reddit.com") {
+body{
+ font-family: Open Sans !important;
+}
+.sitetable, #sitetable{
+ font-family: Open Sans !important;
+}
+.entry .title > .title {
+   font-size: 18px !important;
+}
+.entry .tagline {
+   font-size: 12px !important;
+}
+.entry .flat-list.buttons {
+   font-size: 12px !important;
+}
+
+.midcol {
+   font-size: 15px !important;
+}
+.link .thumbnail.self {
+background-image: none !important;
+}
+.link .thumbnail {
+width: inherit !important;
+}
+.content .menuarea {
+  font-size: 13px !important;
+}
+.side {
+  font-size: 15px !important;
+}
+
+.side *{
+  font-size: 15px !important;
+}
+#header {
+   font-size: 11px !important;
+}
+ #header-bottom-right {
+  font-size: 11px !important;
+}
+#RESShortcutsViewport {
+  font-size: 11px !important;
+}
+
+}

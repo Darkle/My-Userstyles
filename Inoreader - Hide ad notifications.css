@@ -1,0 +1,15 @@
+@-moz-document domain("inoreader.com") {
+#reader_pane {
+  padding-right: 0 !important;
+}
+#reader_pane.reader_pane_sinner {
+  padding-right: 0 !important;
+}
+#sinner_container {
+ display: none !important;
+}
+
+#consent_bbb {
+display: none !important;
+}
+}
