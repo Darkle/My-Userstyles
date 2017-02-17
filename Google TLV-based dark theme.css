@@ -1,9 +1,9 @@
 @-moz-document
-  url-prefix("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?."),
+  url-prefix("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?."), 
+  url-prefix("https://www.google.com.au"),
   regexp("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?/((\\?|webhp|search|gfe_rd|auth|gws_rd|#q|imghp|#gfe_rd|#safe|#pws|#tbs|#gws|#tbm).*)"),
   regexp("https?://encrypted.google.(com|([a-z]{2}))(.[a-z]{2})?/((\\?|webhp|search|gfe_rd|auth|gws_rd|#q|imghp|#gfe_rd|#safe|#pws|#tbs|#gws|#tbm).*)"),
   regexp("https?://encrypted.google.(com|([a-z]{2}))(.[a-z]{2})?."), regexp("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?/_/chrome/newtab\\?.*") {
-
 
 /* TLV Night Mode default theme colors
 Background: #282C34
@@ -11,7 +11,7 @@ Text: #ABB2BF
 Border: #464A54
 Link: #769EC1
 Visited LInk: #C18176
-Hover color: rgb(104, 109, 123)	
+Hover color: rgb(104, 109, 123)
 */
 
 html,
@@ -73,9 +73,16 @@ html.tlvNightModeOn a:visited {
 }
 /*Speech input microphone button*/
 
-#gs_st0 {
+#gs_st0 a[aria-label="Search by voice"] {
     display: none;
 }
+
+/*Camera icon for image search*/
+
+#qbi {
+ filter: invert();
+}
+
 /*Settings button*/
 
 #hdtb .hdtb-mitem a#abar_button_opt:hover {
@@ -118,15 +125,17 @@ html.tlvNightModeOn a:visited {
 /*Chrome apps button top right*/
 
 #gbwa .gb_b.gb_3b {
-    background-position-x: 64px;
-    background-position-y: -35px;
+/*     background-position-x: 64px; */
+/*     background-position-y: -35px; */
+  filter: invert();
 }
 /*Notification bell*/
 
 #gbw .gb_Ac.gb_Bc.gb_3b {
-    background-position-x: -70px !important;
+/*     background-position-x: -70px !important;
     background-position-y: 0px !important;
-    background-color: #6f6f6f !important;
+    background-color: #6f6f6f !important; */
+  filter: invert();
 }
 /*Account Button*/
 
@@ -245,10 +254,86 @@ g-scrolling-carousel g-fab {
 #cwmcwd #cwtlbb.cwtlbs {
     border: 1px solid #C18176 !important;
 }
+
+/*Currentcy converter*/
+
+#rso .currency.obcontainer {
+ background-color: #282C34;
+ outline: 1px solid #464A54;
+}
+
+#rso .currency.obcontainer select, #rso .currency.obcontainer input {
+  background-color: #282C34;
+  background-image: none;
+    color: #ABB2BF !important;
+}
+
+#ccw_chart {
+ filter: invert();
+}
+
+/*unit converter*/
+
+#rso .obcontainer.card-section {
+   background-color: #282C34;
+ outline: 1px solid #464A54;
+}
+
+#rso .obcontainer.card-section select, #rso .obcontainer.card-section input {
+  background-color: #282C34;
+}
+
+/*Google Translate*/
+
+#tw-container {
+    background-color: #282C34;
+}
+
+/*Weather*/
+
+#wob_wc {
+   background-color: #282C34;
+}
+#wob_wc .wob_ds {
+background-color: #282C34;
+ border: 1px solid #C18176 !important;
+}
+
+/*Timer*/
+
+#timer-stopwatch-container, #timer-stopwatch-container .act-switch-area, #timer-stopwatch-container .act-tim-txt-cnt > div{
+  background-color: #282C34 !important;
+}
+
 /*Some div that shows up when you go from search page to results page*/
 
 #viewport > .sfbgx {
     background-color: #282C34;
+}
+
+/*Image search page*/
+/*Search input popup*/
+#qbp, #qbug > *, #qbui, #qbfilebp{
+  background-color: #282C34 !important;
+}
+#qbui {
+  border: 1px solid #464A54 !important;
+}
+#qbug > div >div.qbtbha{
+  background-color: #282C34 !important;
+}
+#qbpiu {
+  color: #ABB2BF !important;
+}
+
+#qbig > .qbwr > div.qbtbha > div.qbtbha {
+  background-color: #282C34 !important;
+}
+#qbig > .qbwr > div.qbtbha > div.qbtbha span{
+color: #ABB2BF !important;
+}
+#qbfti, #qbuti {
+ filter: invert();
 }
 /***New tab page***/
 /*search input*/
@@ -270,7 +355,4 @@ input[value="I'm Feeling Lucky"]:hover {
     color: rgb(104, 109, 123) !important;
     border-color: rgb(104, 109, 123) !important;
 }
-
-
-
 }
