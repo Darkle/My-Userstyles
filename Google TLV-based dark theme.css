@@ -13,140 +13,122 @@ Link: #769EC1
 Visited LInk: #C18176
 */
 
-
-html, html > body {
+html,
+html > body {
     background-color: #282C34 !important;
     color: #ABB2BF !important;
 }
-
 html * {
     color: rgb(171, 178, 191);
     box-shadow: none;
     border-color: rgb(70, 74, 84) !important;
 }
-
-html ::selection {
-    background: rgba(142,142,142,0.3) !important;
+html::selection {
+    background: rgba(142, 142, 142, 0.3) !important;
 }
-
 html a:link {
     color: #769EC1 !important;
 }
-
 html.tlvNightModeOn a:visited {
     color: #C18176 !important;
 }
-
 /*Top bar and search input*/
 
- #cnt > div, #hdtbSum, #gb + div div{
-     background: #282C34 !important;
- }
-
-#hdtb{
-  border-bottom: 1px solid #464A54;
+#cnt > div,
+#hdtbSum,
+#gb + div div {
+    background: #282C34 !important;
 }
-
+#hdtb {
+    border-bottom: 1px solid #464A54;
+}
 #sfdiv {
     background-color: rgb(40, 44, 52) !important;
 }
-
 #sfdiv >div {
     background-color: rgb(40, 44, 52) !important;
 }
-
-#sbtc > div:not(.sbibtd) .sbsb_a{
+#sbtc > div:not(.sbibtd) .sbsb_a {
     background-color: rgb(40, 44, 52) !important;
 }
-
-#sb_ifc0, #gs_st0, #sfdiv > div > div {
+#sb_ifc0,
+#gs_st0,
+#sfdiv > div > div {
     background-color: #282C34 !important;
 }
-
 #sb_ifc0 {
-   border: 1px solid rgb(70, 74, 84) !important;
+    border: 1px solid rgb(70, 74, 84) !important;
 }
-
 #sbtc > div.gstl_0.sbdd_a > div:nth-child(2) > div.sbdd_b > div > ul > li:hover {
     background: rgb(70, 74, 84) !important;
 }
-
 #searchform div[aria-label="Google apps"] > * {
     background: rgb(70, 74, 84) !important;
 }
-
 /*Search button*/
+
 #_fZl:hover svg {
     fill: #686D7B;
 }
-
 /*Speech input microphone button*/
 
 #gs_st0 {
- display: none;
+    display: none;
 }
+/*Settings button*/
 
-	/*Settings button*/
-	#hdtb .hdtb-mitem a#abar_button_opt:hover {
-		color: #ABB2BF;
-	}
+#hdtb .hdtb-mitem a#abar_button_opt:hover {
+    color: #ABB2BF;
+}
+/*More button*/
 
-	/*More button*/
-
-	#hdtb .hdtb-mitem a.hdtb-dd-b:hover {
-		color: #ABB2BF;
-	}
-	#lb #_P9o {
-
+#hdtb .hdtb-mitem a.hdtb-dd-b:hover {
+    color: #ABB2BF;
+}
+#lb #_P9o {
     background-color: #282C34 !important;
-	}
-
+}
 #hdtb-msb .hdtb-mitem:not(.hdtb-msel) a {
     color: #ABB2BF !important;
 }
-
 #hdtb-msb .hdtb-mitem:not(.hdtb-msel):hover a {
     color: rgb(104, 109, 123) !important;
 }
-
 /*tools menu hover*/
-#hdtb-tls:hover{
+
+#hdtb-tls:hover {
     background-color: #282C34 !important;
     background-image: none !important;
     border-color: rgb(104, 109, 123) !important;
 }
-
 /*Dropdown menus for button when click tools*/
 
 .hdtbU.hdtb-mn-o {
-     background-color: #282C34 !important;
+    background-color: #282C34 !important;
 }
-
 .hdtbU.hdtb-mn-o li {
-     background-color: #282C34 !important;
+    background-color: #282C34 !important;
 }
-
 /*Dropdown menu for settings button*/
 
 #ab_options {
-  background-color: #282C34 !important;
+    background-color: #282C34 !important;
 }
-
 /*Chrome apps button top right*/
-#gbwa .gb_b.gb_3b{
-  background-position-x: 64px;
-  background-position-y: -35px;
+
+#gbwa .gb_b.gb_3b {
+    background-position-x: 64px;
+    background-position-y: -35px;
 }
-
-
 /*Notification bell*/
-#gbw .gb_Ac.gb_Bc.gb_3b{
-background-position-x: -70px !important;
+
+#gbw .gb_Ac.gb_Bc.gb_3b {
+    background-position-x: -70px !important;
     background-position-y: 0px !important;
     background-color: #6f6f6f !important;
 }
-
 /*Account Button*/
+
 #gbw a[href^="https://accounts.google.com"] span {
     background-image: none !important;
 }
@@ -157,110 +139,102 @@ background-position-x: -70px !important;
     top: 5px !important;
     font-size: 1.5em !important;
 }
-
 /*Account button popup*/
 
 #gbw div[aria-label="Account Information"] {
     background-color: #282C34;
 }
-
 #gbw div[aria-label="Account Information"] a[href="https://myaccount.google.com/?utm_source=OGB"] {
     color: #ececec !important;
 }
-
-#gbw div[aria-label="Account Information"] > div:last-child, #gbw div[aria-label="Account Information"] > div:last-child a {
+#gbw div[aria-label="Account Information"] > div:last-child,
+#gbw div[aria-label="Account Information"] > div:last-child a {
     background-color: #282C34;
 }
-
-
 /*Search Results*/
 
 #ires .g a {
-   color: #769EC1 !important;
+    color: #769EC1 !important;
 }
-
 #ires .g a:visited {
-   color: #C18176 !important;
+    color: #C18176 !important;
 }
-
 cite {
-   color: #ABB2BF !important;
+    color: #ABB2BF !important;
 }
-
 #ires .g cite {
-   color: #ABB2BF !important;
+    color: #ABB2BF !important;
 }
-
 #ires #nqsbq {
     background-color: rgb(40, 44, 52) !important;
 }
-
-
 #ires .g cite + div > a {
-   background-color: rgb(40, 44, 52) !important;
+    background-color: rgb(40, 44, 52) !important;
 }
-
 #ires .g cite + div > div {
-   background-color: rgb(40, 44, 52) !important;
+    background-color: rgb(40, 44, 52) !important;
 }
-
 g-inner-card {
-   background-color: rgb(40, 44, 52) !important;
-   border: 1px solid rgb(70, 74, 84) !important;
+    background-color: rgb(40, 44, 52) !important;
+    border: 1px solid rgb(70, 74, 84) !important;
 }
-
 g-scrolling-carousel g-fab {
     background-color: inherit !important;
 }
 /*pdf listing*/
-#rso .g span.w {
-  color: #ABB2BF;
-}
 
+#rso .g span.w {
+    color: #ABB2BF;
+}
 /*Right hand side stuff*/
+
 #rhs_block * {
     color: #ABB2BF !important;
 }
-
 /*overlay thing that shows briefly when you do an instant search and it replaces the results*/
-.flyr-o, .flyr-w, ._Db:hover {
-  background-color: #282C34 !important;
-}
 
-/*footer*/
-#fbar{
-    background-color: rgb(40, 44, 52) !important;
-}
-
-#foot #navcnt .cur {
-  color: #b1b1b1 !important;
-}
-
-/*MarkSearch Stuff*/
-#msResultsBox{
+.flyr-o,
+.flyr-w,
+._Db:hover {
     background-color: #282C34 !important;
 }
+/*footer*/
 
+#fbar {
+    background-color: rgb(40, 44, 52) !important;
+}
+#foot #navcnt .cur {
+    color: #b1b1b1 !important;
+}
+/*MarkSearch Stuff*/
+
+#msResultsBox {
+    background-color: #282C34 !important;
+}
 .msSearchButtonResultsPageGoogle span {
     color: white !important;
 }
-
 /*Calculator*/
 
 #ires #rso #cwmcwd {
     border: 1px solid #464A54 !important;
     background-color: #282C34 !important;
 }
-
 #cwmcwd #cwtlbb + .cwtlwm {
     background-color: #282C34 !important;
 }
-
-#cwmcwd .cwrb-tpl, #cwmcwd .cwdb-tpl, #cwmcwd .cwdgb-tpl, #cwmcwd .cwdrsb-tpl, #cwmcwd .cwlgb-tpl {
+#cwmcwd .cwrb-tpl,
+#cwmcwd .cwdb-tpl,
+#cwmcwd .cwdgb-tpl,
+#cwmcwd .cwdrsb-tpl,
+#cwmcwd .cwlgb-tpl {
     background: #282C34 !important;
 }
-
-#cwmcwd .cwrb-tpl:hover, #cwmcwd .cwdb-tpl:hover, #cwmcwd .cwdgb-tpl:hover, #cwmcwd .cwdrsb-tpl:hover, #cwmcwd .cwlgb-tpl:hover {
+#cwmcwd .cwrb-tpl:hover,
+#cwmcwd .cwdb-tpl:hover,
+#cwmcwd .cwdgb-tpl:hover,
+#cwmcwd .cwdrsb-tpl:hover,
+#cwmcwd .cwlgb-tpl:hover {
     border: 1px solid rgb(104, 109, 123) !important;
 }
 #cwmcwd #cwtlbb.cwtlbh {
@@ -270,33 +244,31 @@ g-scrolling-carousel g-fab {
 #cwmcwd #cwtlbb.cwtlbs {
     border: 1px solid #C18176 !important;
 }
-
 /*Some div that shows up when you go from search page to results page*/
+
 #viewport > .sfbgx {
     background-color: #282C34;
 }
-
- /***New tab page***/
+/***New tab page***/
 /*search input*/
-#fkbx {
-  background-color: #282C34;
-}
 
+#fkbx {
+    background-color: #282C34;
+}
 /*Search buttons*/
-input[value="Google Search"], input[value="I'm Feeling Lucky"] {
+
+input[value="Google Search"],
+input[value="I'm Feeling Lucky"] {
     background-image: none !important;
     background-color: #282C34 !important;
 }
-
-input[value="Google Search"]:hover, input[value="I'm Feeling Lucky"]:hover {
+input[value="Google Search"]:hover,
+input[value="I'm Feeling Lucky"]:hover {
     background-image: none !important;
     background-color: #282C34 !important;
     color: rgb(104, 109, 123) !important;
     border-color: rgb(104, 109, 123) !important;
 }
-
-
-
 
 
 
