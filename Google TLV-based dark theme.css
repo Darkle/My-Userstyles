@@ -1,9 +1,4 @@
-@-moz-document
-  url-prefix("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?."), 
-  url-prefix("https://www.google.com.au"),
-  regexp("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?/((\\?|webhp|search|gfe_rd|auth|gws_rd|#q|imghp|#gfe_rd|#safe|#pws|#tbs|#gws|#tbm).*)"),
-  regexp("https?://encrypted.google.(com|([a-z]{2}))(.[a-z]{2})?/((\\?|webhp|search|gfe_rd|auth|gws_rd|#q|imghp|#gfe_rd|#safe|#pws|#tbs|#gws|#tbm).*)"),
-  regexp("https?://encrypted.google.(com|([a-z]{2}))(.[a-z]{2})?."), regexp("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?/_/chrome/newtab\\?.*") {
+@-moz-document url-prefix("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?."), url-prefix("https://www.google.com.au"), regexp("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?/((\\?|webhp|search|gfe_rd|auth|gws_rd|#q|imghp|#gfe_rd|#safe|#pws|#tbs|#gws|#tbm).*)"), regexp("https?://encrypted.google.(com|([a-z]{2}))(.[a-z]{2})?/((\\?|webhp|search|gfe_rd|auth|gws_rd|#q|imghp|#gfe_rd|#safe|#pws|#tbs|#gws|#tbm).*)"), regexp("https?://encrypted.google.(com|([a-z]{2}))(.[a-z]{2})?."), regexp("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?/_/chrome/newtab\\?.*") {
 
 /* TLV Night Mode default theme colors
 Background: #282C34
@@ -131,18 +126,16 @@ html.tlvNightModeOn a:visited {
 }
 /*Notification bell*/
 
-#gbw .gb_Ac.gb_Bc.gb_3b {
-/*     background-position-x: -70px !important;
-    background-position-y: 0px !important;
-    background-color: #6f6f6f !important; */
-  filter: invert();
+#gbwa + div > div > a[aria-label="0 Google notifications"] {
+ filter: invert();
 }
+
 /*Account Button*/
 
-#gbw a[href^="https://accounts.google.com"] span {
+#gbwa ~ div > div > a[href^="https://accounts.google.com"] span {
     background-image: none !important;
 }
-#gbw a[href^="https://accounts.google.com"] span:before {
+#gbwa ~ div > div > a[href^="https://accounts.google.com"] span:before {
     background-image: none !important;
     content: "Y" !important;
     position: relative !important;
@@ -355,4 +348,15 @@ input[value="I'm Feeling Lucky"]:hover {
     color: rgb(104, 109, 123) !important;
     border-color: rgb(104, 109, 123) !important;
 }
+
+
+
+
+
+
+
+
+
+
+
 }
