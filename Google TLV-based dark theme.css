@@ -1,4 +1,3 @@
-@-moz-document url-prefix("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?."), url-prefix("https://www.google.com.au"), regexp("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?/((\\?|webhp|search|gfe_rd|auth|gws_rd|#q|imghp|#gfe_rd|#safe|#pws|#tbs|#gws|#tbm).*)"), regexp("https?://encrypted.google.(com|([a-z]{2}))(.[a-z]{2})?/((\\?|webhp|search|gfe_rd|auth|gws_rd|#q|imghp|#gfe_rd|#safe|#pws|#tbs|#gws|#tbm).*)"), regexp("https?://encrypted.google.(com|([a-z]{2}))(.[a-z]{2})?."), regexp("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?/_/chrome/newtab\\?.*") {
 
 /* TLV Night Mode default theme colors
 Background: #282C34
@@ -136,11 +135,24 @@ html.tlvNightModeOn a:visited {
     background-image: none !important;
 }
 #gbwa ~ div > div > a[href^="https://accounts.google.com"] span:before {
-    background-image: none !important;
-    content: "Y" !important;
-    position: relative !important;
-    top: 5px !important;
-    font-size: 1.5em !important;
+    content: none !important;
+
+}
+#gbwa ~ div > div > a[href^="https://accounts.google.com"] span {
+background: url(https://calendar.google.com/googlecalendar/images/combined_v46_vr.png) -267px -33px no-repeat !important;
+    filter: invert();
+display: block;
+    margin: -1px;
+    overflow: hidden;
+    width: 28px;
+    z-index: 0;
+    height: 19px;
+    margin-top: 5px;
+  opacity: 0.8
+}
+#gbwa ~ div > div > a[href^="https://accounts.google.com"] span:hover {
+
+  opacity: 1
 }
 /*Account button popup*/
 
@@ -347,16 +359,4 @@ input[value="I'm Feeling Lucky"]:hover {
     background-color: #282C34 !important;
     color: rgb(104, 109, 123) !important;
     border-color: rgb(104, 109, 123) !important;
-}
-
-
-
-
-
-
-
-
-
-
-
 }
