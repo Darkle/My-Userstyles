@@ -1,0 +1,257 @@
+@-moz-document url-prefix("https://calendar.google.com/calendar/") {
+/*
+Background: #282C34
+Text: #ABB2BF
+Border: #464A54
+Link: #769EC1
+Visited LInk: #C18176
+Hover color: rgb(104, 109, 123)
+*/
+
+/*.st-bg-today {
+    background: #eaeaea;
+    border-left: 1px solid #666;
+}*/
+
+html * {
+    color: rgb(171, 178, 191);
+    box-shadow: none;
+    border-color: rgb(70, 74, 84) !important;
+}
+
+html, html > body, html > body > * {
+    background-color: #282C34;
+}
+
+/*Top bar*/
+
+#gb > div:not(#gbw), #vr-nav, #mainnav{
+  background-color: #282C34;
+}
+
+
+/*Today button and nave buttons*/
+
+div[id="navBack:1"] {
+  background-color: #282c34 !important;
+  background-image: none !important;
+}
+
+div[id="navBack:1"]:hover {
+  border-color: rgb(102, 110, 128) !important;
+}
+
+div[id="navBack:1"] > div {
+  background-image: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7em;
+}
+
+div[id="navBack:1"] > div:after {
+    content: "⬅";
+}
+
+div[id="navForward:1"] {
+  background-color: #282c34 !important;
+  background-image: none !important;
+}
+
+div[id="navForward:1"] > div {
+  background-image: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7em;
+}
+
+div[id="navForward:1"] > div:after {
+    content: "➡";
+}
+
+div[id="navForward:1"]:hover {
+  border-color: rgb(102, 110, 128) !important;
+}
+
+div[id="todayButton:1"] div {
+  background: none !important;
+}
+
+div[id="todayButton:1"] > div.goog-imageless-button.goog-imageless-button-disabled {
+  color: rgb(114, 118, 126) !important;
+  border: none !important;
+}
+
+div[id="todayButton:1"] > div:hover {
+  border-color: rgb(102, 110, 128) !important;
+}
+
+/*Left calendar nav*/
+
+#dp_0, #dp_0_tbl td, #dp_0_tbl th {
+  background-color: #282C34;
+  color: #ABB2BF;
+}
+
+#dp_0_tbl .dp-days th {
+  color: #ABB2BF;
+}
+
+#dp_0_tbl td.dp-offmonth-selected, #dp_0_tbl td.dp-offmonth {
+  color: #70757e;
+}
+
+#clst_my, #clst_fav {
+  background-color: #282C34;
+}
+
+/*Top right buttons and nav*/
+
+#topRightNavigation div {
+ background: inherit !important;
+}
+
+
+#topRightNavigation #mg-settings > div {
+ background: url(https://calendar.google.com/googlecalendar/images/combined_v46_vr.png) -273px -34px no-repeat !important;
+}
+
+#topRightNavigation > div.button-strip > div:not(.trans-strip):hover {
+  border: 1px solid rgb(102, 110, 128) !important;
+}
+
+/*Chrome apps button top right*/
+
+#gbwa .gb_b.gb_3b {
+/*     background-position-x: 64px; */
+/*     background-position-y: -35px; */
+  filter: invert();
+}
+/*Notification bell*/
+
+#gbwa + div > div > a[aria-label="0 Google notifications"] {
+ filter: invert();
+}
+
+/*Account Button*/
+
+#gbwa ~ div > div > a[href^="https://accounts.google.com"] span {
+    background-image: none !important;
+}
+#gbwa ~ div > div > a[href^="https://accounts.google.com"] span:before {
+    background-image: none !important;
+    content: "Y" !important;
+    position: relative !important;
+    top: 5px !important;
+    font-size: 1.5em !important;
+}
+/*Account button popup*/
+
+#gbw div[aria-label="Account Information"] {
+    background-color: #282C34;
+}
+#gbw div[aria-label="Account Information"] a[href="https://myaccount.google.com/?utm_source=OGB"] {
+    color: #ececec !important;
+}
+#gbw div[aria-label="Account Information"] > div:last-child,
+#gbw div[aria-label="Account Information"] > div:last-child a {
+    background-color: #282C34;
+}
+
+/*Cog*/
+
+#mg-settings > div {
+ filter: invert();
+}
+
+/*Main cal*/
+
+#gridcontainer .mv-container, #mv-container, #mvDaynamesTable, #mvEventContainer, #mvEventContainer table td.st-dtitle, #mvEventContainer table td.st-bg-today {
+ background-color: #282C34;
+}
+
+#mvEventContainer span.st-more {
+  color: #769EC1 !important;
+}
+
+/*.cc is the popup when you click the more button*/
+.cc {
+    border: 1px solid hsla(9, 38%, 61%, 0.47) !important;
+  background-color: #282C34;
+}
+.cc .cc-titlebar {
+  background-color: #282C34;
+}
+
+.st-dtitle-today > span {
+  color: #C18176 !important;
+}
+
+.dp-today-selected {
+  border: 1px solid rgb(120, 77, 69) !important;
+}
+
+.st-bg-today {
+    border-left: 1px solid #C18176 !important;
+}
+.st-dtitle-today {
+    border-left: 1px solid #C18176 !important;
+    border-top: 1px solid #C18176 !important;
+}
+
+.st-dtitle-down {
+    border-top: 1px solid #C18176 !important;
+}
+
+.st-bg-next {
+    border-left: 1px solid #C18176 !important;
+}
+
+.st-dtitle-next {
+    border-left: 1px solid #C18176 !important;
+}
+
+/*Holidays and birthdays*/
+#mvEventContainer .st-c-pos > div{
+  background-color: inherit !important;
+  border: none !important;
+}
+
+
+/***Settings page***/
+
+#set, #set #sbody {
+ background-color: #282C34;
+}
+
+#set tbody.zebra-even>tr:nth-child(2n), tbody.zebra-odd>tr:nth-child(odd), table.zebra-even>tbody>tr:nth-child(2n) {
+   background-color: #282C34;
+}
+#set #sbody input, #set #sbody select {
+ background-color: #282C34;
+}
+#set .stitle {
+  color: #ABB2BF;
+}
+#set a, #set #stabs a {
+ color: #769EC1;
+}
+
+#set #bottom-buttons *, #settings_save_btn, #settings_cancel_btn, #coverinnert .privacy-policy {
+   background-color: #282C34;
+}
+#coverinner .privacy-policy a{
+  color: #769EC1;
+}
+
+
+
+
+
+
+
+
+
+
+}
