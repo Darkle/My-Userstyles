@@ -5,7 +5,7 @@
 
 body center table {
     width: 1080px;
-    margin: 0 auto;
+/*     margin: 0 auto; */
 }
 
 /*Top header*/
@@ -53,44 +53,6 @@ font-size: 17px !important;
 #hnmain > tbody > tr[style^="height"] + tr > td > table:nth-child(1) > tbody > tr.athing > td:nth-child(3) {
   font-size: 17px !important;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
