@@ -1,11 +1,10 @@
-@-moz-document url-prefix("https://calendar.google.com/calendar/") {
 /*
 Background: #282C34
 Text: #ABB2BF
 Border: #464A54
 Link: #769EC1
 Visited LInk: #C18176
-Hover color: rgb(104, 109, 123)
+Hover color: #686d7b
 */
 
 /*.st-bg-today {
@@ -14,9 +13,9 @@ Hover color: rgb(104, 109, 123)
 }*/
 
 html * {
-    color: rgb(171, 178, 191);
+    color: #abb2bf;
     box-shadow: none;
-    border-color: rgb(70, 74, 84) !important;
+    border-color: #464a54 !important;
 }
 
 html, html > body, html > body > * {
@@ -38,7 +37,7 @@ div[id="navBack:1"] {
 }
 
 div[id="navBack:1"]:hover {
-  border-color: rgb(102, 110, 128) !important;
+  border-color: #666e80 !important;
 }
 
 div[id="navBack:1"] > div {
@@ -71,7 +70,7 @@ div[id="navForward:1"] > div:after {
 }
 
 div[id="navForward:1"]:hover {
-  border-color: rgb(102, 110, 128) !important;
+  border-color: #666e80 !important;
 }
 
 div[id="todayButton:1"] div {
@@ -79,12 +78,12 @@ div[id="todayButton:1"] div {
 }
 
 div[id="todayButton:1"] > div.goog-imageless-button.goog-imageless-button-disabled {
-  color: rgb(114, 118, 126) !important;
+  color: #72767e !important;
   border: none !important;
 }
 
 div[id="todayButton:1"] > div:hover {
-  border-color: rgb(102, 110, 128) !important;
+  border-color: #666e80 !important;
 }
 
 /*Left calendar nav*/
@@ -106,6 +105,10 @@ div[id="todayButton:1"] > div:hover {
   background-color: #282C34;
 }
 
+#createEventButtonContainer > div > div {
+background: #78372e !important;
+}
+
 /*Top right buttons and nav*/
 
 #topRightNavigation div {
@@ -118,7 +121,7 @@ div[id="todayButton:1"] > div:hover {
 }
 
 #topRightNavigation > div.button-strip > div:not(.trans-strip):hover {
-  border: 1px solid rgb(102, 110, 128) !important;
+  border: 1px solid #666e80 !important;
 }
 
 /*Chrome apps button top right*/
@@ -189,7 +192,7 @@ div[id="todayButton:1"] > div:hover {
 }
 
 .dp-today-selected {
-  border: 1px solid rgb(120, 77, 69) !important;
+  border: 1px solid #784d45 !important;
 }
 
 .st-bg-today {
@@ -218,6 +221,29 @@ div[id="todayButton:1"] > div:hover {
   border: none !important;
 }
 
+/*quick add popup box*/
+
+body > div.bubble{
+  background-color: #282C34;
+}
+
+body > div.bubble .bubblecontent > div > div >div:first-child a {
+  color: #ABB2BF !important;
+}
+body > div.bubble .bubblecontent input[placeholder="e.g., 7pm Dinner at Pancho's"]{
+    background-color: #282C34;
+    color: #ABB2BF !important;
+}
+
+body > div.bubble .bubblecontent div.tab-content div[role="button"][aria-label="Edit event"] {
+     background-color: #282C34 !important;
+    background-image: none;
+    color: #ABB2BF !important;
+}
+body > div.bubble .bubblecontent div.tab-content div[role="button"][aria-label="Edit event"]:hover{
+    color: #686d7b !important;
+    border-color: #686d7b !important;
+}
 
 /***Settings page***/
 
@@ -245,13 +271,25 @@ div[id="todayButton:1"] > div:hover {
   color: #769EC1;
 }
 
+/*Main event add page*/
+
+#coverinner input, #coverinner textarea {
+  background-color: #282C34;
+}
+
+#coverinner > div > div.ep-main.fat > div.ep-tp > div.ep-dp {
+  background-color: #282C34;
+}
 
 
+#coverinner div[id=":2o.hs"] span, #coverinner div[id=":1l.attachments"] span, div[id=":1l.reminders"] span, span[id=":1l.privacySharingLink"], span[id=":1l.privacyHelpSecret"] + a{
+  color: #769EC1 !important;
+}
 
+#ui-ltsr-tab-0 {
+  color: #ABB2BF !important;
+}
 
-
-
-
-
-
+#coverinner > div > div.ep-main.fat > div.ep-gp.fat > div.ep-go > div > h3 {
+  color: #ABB2BF !important;
 }

@@ -1,20 +1,56 @@
 
-/* TLV Night Mode default theme colors
-Background: #282C34
-Text: #ABB2BF
+/*
+color palette from https://github.com/dubstrike/twitter-dark-mode/blob/master/dist/darkmode.css
+
+http://codepen.io/CoopCoding/pen/ZezVNg
+And some TLV colors
+
 Border: #464A54
-Link: #769EC1
-Visited LInk: #C18176
 Hover color: #686d7b
+Text 1: #ffffff
+Text 2: #b1bbc3
+Emphasised Text: #76848f
+#f5f8fa
+#f3f3f3
+#b3b3b3
+#b1bbc3
+#abb8c2
+#aab8c2
+#8999a5
+Darker Text: #8899a6
+#3dabf5
+Background: #2f3d51
+#253141
+#212c3b
+#212c3a
+Link 1: #1da1f2
+Link 2: #4581b6
+Link 3: #848d95
+Link 4: #d5d9dd
+Visited LInk 1: #C18176
+Visited LInk 2: #a56e64
+#1c9dec
+#1c2531
+#161d27
+#142f52
+#131920
+#121921
+#0f141a
+#0e131a
+#0ab5fa
+#090c10
+#085a91
+#002b33
+#000000
 */
 
 html,
 html > body {
-    background-color: #282C34 !important;
-    color: #ABB2BF !important;
+    background-color: #2f3d51 !important;
+    color: #b1bbc3 !important;
 }
 html * {
-    color: #abb2bf;
+    color: #b1bbc3;
     box-shadow: none;
     border-color: #464a54 !important;
 }
@@ -22,34 +58,34 @@ html::selection {
     background: rgba(142, 142, 142, 0.3) !important;
 }
 html a:link {
-    color: #769EC1 !important;
+    color: #d5d9dd !important;
 }
 html a:visited {
-    color: #C18176 !important;
+    color: #a56e64 !important;
 }
 /*Top bar and search input*/
 
 #cnt > div,
 #hdtbSum,
 #gb + div div {
-    background: #282C34 !important;
+    background: #2f3d51 !important;
 }
 #hdtb {
     border-bottom: 1px solid #464A54;
 }
 #sfdiv {
-    background-color: #282c34 !important;
+    background-color: #2f3d51 !important;
 }
 #sfdiv >div {
-    background-color: #282c34 !important;
+    background-color: #2f3d51 !important;
 }
 #sbtc > div:not(.sbibtd) .sbsb_a {
-    background-color: #282c34 !important;
+    background-color: #2f3d51 !important;
 }
 #sb_ifc0,
 #gs_st0,
 #sfdiv > div > div {
-    background-color: #282C34 !important;
+    background-color: #2f3d51 !important;
 }
 #sb_ifc0 {
     border: 1px solid #464a54 !important;
@@ -80,18 +116,18 @@ html a:visited {
 /*Settings button*/
 
 #hdtb .hdtb-mitem a#abar_button_opt:hover {
-    color: #ABB2BF;
+    color: #b1bbc3;
 }
 /*More button*/
 
 #hdtb .hdtb-mitem a.hdtb-dd-b:hover {
-    color: #ABB2BF;
+    color: #b1bbc3;
 }
 #lb #_P9o {
-    background-color: #282C34 !important;
+    background-color: #2f3d51 !important;
 }
 #hdtb-msb .hdtb-mitem:not(.hdtb-msel) a {
-    color: #ABB2BF !important;
+    color: #b1bbc3 !important;
 }
 #hdtb-msb .hdtb-mitem:not(.hdtb-msel):hover a {
     color: #686d7b !important;
@@ -99,22 +135,22 @@ html a:visited {
 /*tools menu hover*/
 
 #hdtb-tls:hover {
-    background-color: #282C34 !important;
+    background-color: #2f3d51 !important;
     background-image: none !important;
     border-color: #686d7b !important;
 }
 /*Dropdown menus for button when click tools*/
 
 .hdtbU.hdtb-mn-o {
-    background-color: #282C34 !important;
+    background-color: #2f3d51 !important;
 }
 .hdtbU.hdtb-mn-o li {
-    background-color: #282C34 !important;
+    background-color: #2f3d51 !important;
 }
 /*Dropdown menu for settings button*/
 
 #ab_options {
-    background-color: #282C34 !important;
+    background-color: #2f3d51 !important;
 }
 /*Chrome apps button top right*/
 
@@ -157,66 +193,73 @@ display: block;
 /*Account button popup*/
 
 #gbw div[aria-label="Account Information"] {
-    background-color: #282C34;
+    background-color: #2f3d51;
 }
 #gbw div[aria-label="Account Information"] a[href="https://myaccount.google.com/?utm_source=OGB"] {
     color: #ececec !important;
 }
 #gbw div[aria-label="Account Information"] > div:last-child,
 #gbw div[aria-label="Account Information"] > div:last-child a {
-    background-color: #282C34;
+    background-color: #2f3d51;
 }
 /*Search Results*/
 
 #ires .g a {
-    color: #769EC1 !important;
+    color: #d5d9dd !important;
 }
 #ires .g a:visited {
-    color: #C18176 !important;
+    color: #a56e64 !important;
 }
 cite {
-    color: #ABB2BF !important;
+    color: #8899a6 !important;
 }
 #ires .g cite {
-    color: #ABB2BF !important;
+    color: #8899a6 !important;
 }
 #ires #nqsbq {
-    background-color: #282c34 !important;
+    background-color: #2f3d51 !important;
 }
 #ires .g cite + div > a {
-    background-color: #282c34 !important;
+    background-color: #2f3d51 !important;
 }
 #ires .g cite + div > div {
-    background-color: #282c34 !important;
+    background-color: #2f3d51 !important;
 }
 g-inner-card {
-    background-color: #282c34 !important;
+    background-color: #2f3d51 !important;
     border: 1px solid #464a54 !important;
 }
 g-scrolling-carousel g-fab {
     background-color: inherit !important;
 }
+
+/*Results snippet emphasis*/
+.s .st em, .st.s.std em {
+    color: #76848f !important;
+}
+
+
 /*pdf listing*/
 
 #rso .g span.w {
-    color: #ABB2BF;
+    color: #b1bbc3;
 }
 /*Right hand side stuff*/
 
 #rhs_block * {
-    color: #ABB2BF !important;
+    color: #b1bbc3 !important;
 }
 /*overlay thing that shows briefly when you do an instant search and it replaces the results*/
 
 .flyr-o,
 .flyr-w,
 ._Db:hover {
-    background-color: #282C34 !important;
+    background-color: #2f3d51 !important;
 }
 /*footer*/
 
 #fbar {
-    background-color: #282c34 !important;
+    background-color: #2f3d51 !important;
 }
 #foot #navcnt .cur {
     color: #b1b1b1 !important;
@@ -224,7 +267,7 @@ g-scrolling-carousel g-fab {
 /*MarkSearch Stuff*/
 
 #msResultsBox {
-    background-color: #282C34 !important;
+    background-color: #2f3d51 !important;
 }
 .msSearchButtonResultsPageGoogle span {
     color: white !important;
@@ -233,17 +276,17 @@ g-scrolling-carousel g-fab {
 
 #ires #rso #cwmcwd {
     border: 1px solid #464A54 !important;
-    background-color: #282C34 !important;
+    background-color: #2f3d51 !important;
 }
 #cwmcwd #cwtlbb + .cwtlwm {
-    background-color: #282C34 !important;
+    background-color: #2f3d51 !important;
 }
 #cwmcwd .cwrb-tpl,
 #cwmcwd .cwdb-tpl,
 #cwmcwd .cwdgb-tpl,
 #cwmcwd .cwdrsb-tpl,
 #cwmcwd .cwlgb-tpl {
-    background: #282C34 !important;
+    background: #2f3d51 !important;
 }
 #cwmcwd .cwrb-tpl:hover,
 #cwmcwd .cwdb-tpl:hover,
@@ -257,20 +300,20 @@ g-scrolling-carousel g-fab {
     border-top: 1px solid #686d7b !important;
 }
 #cwmcwd #cwtlbb.cwtlbs {
-    border: 1px solid #C18176 !important;
+    border: 1px solid #a56e64 !important;
 }
 
 /*Currentcy converter*/
 
 #rso .currency.obcontainer {
- background-color: #282C34;
+ background-color: #2f3d51;
  outline: 1px solid #464A54;
 }
 
 #rso .currency.obcontainer select, #rso .currency.obcontainer input {
-  background-color: #282C34;
+  background-color: #2f3d51;
   background-image: none;
-    color: #ABB2BF !important;
+    color: #b1bbc3 !important;
 }
 
 #ccw_chart {
@@ -280,62 +323,62 @@ g-scrolling-carousel g-fab {
 /*unit converter*/
 
 #rso .obcontainer.card-section {
-   background-color: #282C34;
+   background-color: #2f3d51;
  outline: 1px solid #464A54;
 }
 
 #rso .obcontainer.card-section select, #rso .obcontainer.card-section input {
-  background-color: #282C34;
+  background-color: #2f3d51;
 }
 
 /*Google Translate*/
 
 #tw-container {
-    background-color: #282C34;
+    background-color: #2f3d51;
 }
 
 /*Weather*/
 
 #wob_wc {
-   background-color: #282C34;
+   background-color: #2f3d51;
 }
 #wob_wc .wob_ds {
-background-color: #282C34;
- border: 1px solid #C18176 !important;
+background-color: #2f3d51;
+ border: 1px solid #a56e64 !important;
 }
 
 /*Timer*/
 
 #timer-stopwatch-container, #timer-stopwatch-container .act-switch-area, #timer-stopwatch-container .act-tim-txt-cnt > div{
-  background-color: #282C34 !important;
+  background-color: #2f3d51 !important;
 }
 
 /*Some div that shows up when you go from search page to results page*/
 
 #viewport > .sfbgx {
-    background-color: #282C34;
+    background-color: #2f3d51;
 }
 
 /*Image search page*/
 /*Search input popup*/
 #qbp, #qbug > *, #qbui, #qbfilebp{
-  background-color: #282C34 !important;
+  background-color: #2f3d51 !important;
 }
 #qbui {
   border: 1px solid #464A54 !important;
 }
 #qbug > div >div.qbtbha{
-  background-color: #282C34 !important;
+  background-color: #2f3d51 !important;
 }
 #qbpiu {
-  color: #ABB2BF !important;
+  color: #b1bbc3 !important;
 }
 
 #qbig > .qbwr > div.qbtbha > div.qbtbha {
-  background-color: #282C34 !important;
+  background-color: #2f3d51 !important;
 }
 #qbig > .qbwr > div.qbtbha > div.qbtbha span{
-color: #ABB2BF !important;
+color: #b1bbc3 !important;
 }
 #qbfti, #qbuti {
  filter: invert();
@@ -344,19 +387,19 @@ color: #ABB2BF !important;
 /*search input*/
 
 #fkbx {
-    background-color: #282C34;
+    background-color: #2f3d51;
 }
 /*Search buttons*/
 
 input[value="Google Search"],
 input[value="I'm Feeling Lucky"] {
     background-image: none !important;
-    background-color: #282C34 !important;
+    background-color: #2f3d51 !important;
 }
 input[value="Google Search"]:hover,
 input[value="I'm Feeling Lucky"]:hover {
     background-image: none !important;
-    background-color: #282C34 !important;
+    background-color: #2f3d51 !important;
     color: #686d7b !important;
     border-color: #686d7b !important;
 }
