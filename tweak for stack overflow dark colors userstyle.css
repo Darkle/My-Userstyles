@@ -1,0 +1,7 @@
+@-moz-document url("http://stackoverflow.com/"), url-prefix("http://stackoverflow.com/") {
+body > header {
+  background: #282828 !important;
+}
+
+
+}

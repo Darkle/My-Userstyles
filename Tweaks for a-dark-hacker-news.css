@@ -1,0 +1,99 @@
+@-moz-document domain("news.ycombinator.com") {
+/* body {
+ font-size
+} */
+
+body center table {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+/*Top header*/
+
+#hnmain > tbody > tr:nth-child(1) > td > table > tbody > tr > td span {
+  font-size: 1.2em !important;
+}
+
+#hnmain > tbody > tr:nth-child(1) > td {
+  height: 30px !important;
+}
+
+#hnmain > tbody > tr:nth-child(2){
+  height: 26px !important;
+}
+
+/*Links on home page*/
+
+.spacer {
+  height: 17px !important;
+}
+
+/* .athing .title {
+font-size: 17px !important;
+}
+ */
+.subtext {
+  font-size: 0.76em !important;
+}
+
+
+/*Comments*/
+
+.comment-tree .athing.comtr *{
+	font-size: 15px !important;
+}
+
+/*Top title on comments page*/
+
+#hnmain > tbody > tr[style] + tr > td > table:nth-child(1) > tbody > tr.athing > td:nth-child(3) {
+  font-size: 21px !important;
+}
+
+
+#hnmain > tbody > tr[style^="height"] + tr > td > table:nth-child(1) > tbody > tr.athing > td:nth-child(3) {
+  font-size: 17px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

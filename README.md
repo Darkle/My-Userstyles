@@ -16,3 +16,4 @@
   * https://userstyles.org/styles/117106/npm-dark-theme
   * https://userstyles.org/styles/133135/dark-omg-ubuntu
   * https://userstyles.org/styles/139008/nodejs-solarized-dark
+  * https://userstyles.org/styles/22794/a-dark-hacker-news
