@@ -1,0 +1,5 @@
+@-moz-document url-prefix("https://www.safaribooksonline.com/library/view/") {
+#container > div.js-toc > section {
+  background-color: rgba(223, 219, 195, 0.41);
+}
+}
